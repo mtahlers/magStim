@@ -1,0 +1,12 @@
+USED GERBER FILE NAMING CONVENTIONS
+
+Layer			File extension
+--------------------------------------
+Top layer:		*.GTL
+Bottom layer:		*.GBL
+Soldermask top:		*.GTS 
+Soldermask Bottom:	*.GBS
+Silkscreen Top:		*.GTO
+Silkscreen Bottom:	*.GBO
+Mechanical layer:	*.GML
+Drill data:		*.TXT

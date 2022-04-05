@@ -1,0 +1,19 @@
+## Magnetic stimulus generation and evaluation for physiology setups
+
+In this repository we provide the resources for a system to generate and evaluate magnetic stimuli for physiology setups. The system consists of (1) a miniature vector magnetometer that is small enough to fit in typical physiological recording chambers, and (2) a constant-current coil driver that is suited to drive coil-systems (e.g. Helmholtz-Coils) for the generation of magnetic fields. We provide calibration routines for the magnetometer and the coil system.
+
+## Repository structure
+
+```
+├───coil_calibration      Coil calibration example in MATLAB
+│
+├───coil_driver           Hardware resources for the coil driver
+│   └───gerber            - Gerber files for PCB
+│
+└───magnetometer          Resources for the magnetometer
+    ├───hardware          - Hardware resources for the magnetometer
+    │   └───gerber        - Gerber files for PCB
+    └───software          - Software resources for the magnetometer
+ 	├───firmware      - AVR µC firmware for the magnetometer
+        └───readout	  - example for magnetometer read-out in MATLAB 
+```
