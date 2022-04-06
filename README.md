@@ -4,7 +4,7 @@ In this repository we provide the resources for a system to generate and evaluat
 
 ### Images
 
-![](https://github.com/mtahlers/magStim/blob/main/img/sensorHead.jpg | width=200)
+<img src="https://github.com/mtahlers/magStim/blob/main/img/sensorHead.jpg" width="100">
 _Sensor head of the miniature vector magnetometer. PCB diameter is 6mm._
 
 ![](https://github.com/mtahlers/magStim/blob/main/img/coilDriver.jpg| width=200)
